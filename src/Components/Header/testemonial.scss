@@ -1,0 +1,57 @@
+#testemonial {
+  .testemonial-wrapper {
+    padding: 50px 0 0 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      flex: 0.4;
+      .left-head {
+        margin: 15px 0;
+        p {
+          font-size: 17px;
+          line-height: 27px;
+          font-weight: 900;
+          color: #757575;
+        }
+      }
+      .left-title {
+        h2 {
+          font-weight: 900;
+          line-height: 62px;
+          font-size: 50px;
+        }
+      }
+      .left-desc {
+        margin-top: 15px;
+        p {
+          font-size: 17px;
+          line-height: 27px;
+          font-weight: 400;
+          color: #757575;
+        }
+      }
+    }
+    .right {
+      flex: 0.5;
+      margin-left: 30px;
+      .right-wrapper {
+        border: 1.5px solid rgba(117, 117, 117, 0.2);
+        width: 555px;
+        padding: 30px;
+        .main-bio {
+          .about-client {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            img {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

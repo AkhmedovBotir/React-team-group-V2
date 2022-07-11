@@ -1,0 +1,131 @@
+#navbar {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0;
+    
+    .logo {
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      
+      .logo1,
+      .logo2 {
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+      }
+      
+      .logo2 {
+        margin-left: 50px;
+      }
+      
+      
+    }
+    
+    .hamburger-menu {
+      color: white;
+      display: none;
+    }
+    
+    .collapsed {
+      .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+        transition: 1s ease;
+        
+        &.is-expended {}
+        
+        .nav-item {
+          
+          .nav-link {
+            padding: 40px 17px;
+            color: #fff;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 23px;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+@import '__responsive.sass';
+
+@media (max-width: 810px) {
+  #navbar {
+    nav {
+      padding: 20px;
+      justify-content: space-between;
+
+      .logo {
+        h2 {
+          color: red;
+          font-size: 22px;
+          line-height: 28px;
+          font-weight: 600;
+        }
+      }
+
+      .hamburger-menu {
+        color: white;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        z-index: 1000;
+      }
+
+      .collapsed {
+        z-index: 999999;
+        z-index: 999999;
+        .navbar-nav {
+          display: none;
+          transition: 1s ease;
+
+          &.is-expended {
+            display: flex;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 500px;
+            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            list-style-type: none;
+            background: #000;
+            transition: 1s ease;
+          }
+
+          .nav-item {
+            padding-top: 100px;
+
+            .nav-link {
+              color: #fff;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 23px;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

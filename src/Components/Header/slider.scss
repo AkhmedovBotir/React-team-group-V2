@@ -1,0 +1,11 @@
+#slider{
+    margin-top: 54px;
+    overflow: hidden;
+    img{
+        padding-bottom: 40px;
+        transition: transform 1s;
+        &:hover {
+          transform: scale(1.1);
+        }
+    }
+}

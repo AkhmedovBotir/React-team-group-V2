@@ -1,0 +1,26 @@
+#about {
+  .head {
+    height: 496px;
+    .title {
+      margin-top: 155px;
+      margin-left: 50px;
+      h2 {
+        font-weight: 900;
+        line-height: 60px;
+        font-size: 60px;
+        color: #fff;
+      }
+    }
+    .desc {
+      margin-top: 15px;
+      margin-left: 50px;
+      p {
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 655px;
+        color: #fff;
+      }
+    }
+  }
+}
