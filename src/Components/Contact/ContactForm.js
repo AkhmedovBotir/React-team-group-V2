@@ -9,7 +9,8 @@ export default function ContactForm() {
             <form className="form">
                 <input type="text" placeholder="Full Name" />
                 <input type="email" placeholder="E-mail" />
-                <input type="text" placeholder="Message" />
+                <input type="text" placeholder="You professional" />
+                <textarea type="text" placeholder="Message" />
                 <button type="submit" className="btnContact">Contact Us</button>
             </form>
             <div className="contacts">

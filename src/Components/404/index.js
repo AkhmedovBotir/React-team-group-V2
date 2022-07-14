@@ -5,8 +5,8 @@ import Footer from '../Footer/Footer'
 export default function index() {
     return (
         <div className="notFound">
+            <Navbar style={{position: 'absolute', top: '0'}}/>
             <div className="parallax">
-                <Navbar />
                 <div className="body404">
                     <h1 className="h1">
                         ERROR 404

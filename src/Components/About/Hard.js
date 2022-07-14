@@ -13,7 +13,7 @@ export default function Hard() {
                     <div className="modall" data-aos="fade-down-right">
                         <Call style={{fill: '#757575', width: '50px', height: '50px', marginBottom: '0', marginTop: '30px', marginLeft: '30px'}}></Call>
                         <h3 className="modalText">Call Us Now</h3>
-                        <h4 className="modalNumber">+998 97 234 34 07</h4>
+                        <h4 className="modalNumber">+998 93 228 18 84</h4>
                     </div>
                     <h1 className="Text" data-aos="fade-left">hard work and strong patience is greatness</h1>
                 </div>

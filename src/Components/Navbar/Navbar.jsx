@@ -14,7 +14,6 @@ export default function Navbar() {
         '<Fully/>',
         '<Developed/>'
     ]
-
     return (
         <section id="navbar">
             <nav>
@@ -23,7 +22,7 @@ export default function Navbar() {
                     <span className="logo2">{logo[1]}</span>
                 </div>
                 <div className="hamburger-menu">
-                    < MenuOpenIcon onClick={collapsemenu} />
+                    < MenuOpenIcon onClick={collapsemenu} style={{width: '70%', height: '50px'}}/>
                 </div>
                 <div className="collapsed">
                     <ul className={`navbar-nav ${menu ? 'is-expended' : ''}`}>
@@ -39,12 +38,12 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
                             <NavLink to="/service" className="nav-link" activeClass="active">
-                                 Services
+                                Services
                             </NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/projects" className="nav-link" activeClass="active">
-                                Our Projects
+                                Projects
                             </NavLink>
                         </li>
                         <li className="nav-item">

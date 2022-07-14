@@ -41,8 +41,6 @@ export default function Footer() {
                     </div>
                     <p><LocationOnIcon />Lumbung Hidup East Java</p>
                     <p><EmailIcon />botircoders@gmail.com</p>
-                    <input type="email" placeholder="Email Adress" />
-                    <button type="submit">SUBSCRIBE</button>
                 </div>
             </div>
             <div className="foot">

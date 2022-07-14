@@ -17,9 +17,7 @@ export default function Header() {
     return (
         <section id="header">
             <Parallax className="parallax" strength={300} blur={{ min: 10, max: -10 }} bgImage={bg}>
-                <div>
-                    <Navbar />
-                </div>
+                <Navbar />
                 <div className="header-wrapper">
                     <div className="sub-header" data-aos="fade-up">
                         <h4>WELCOME TO our team</h4>

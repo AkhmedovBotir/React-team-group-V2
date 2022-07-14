@@ -1,4 +1,3 @@
-@use './__responsive.sass';
 
 #header {
   width: 100%;
@@ -70,3 +69,4 @@
     }
   }
 }
+@import './__responsive.sass';

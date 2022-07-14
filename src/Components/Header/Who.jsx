@@ -41,15 +41,15 @@ export default function Who() {
                     </div>
                     <div className="statistic">
                         <div className="experience">
-                            <CountUp style={{ fontSize: '32px', fontWeight: '900', lineHeight: '47.5px' }} start={0} end={1} prefix="Y "  duration={4}/>
+                            <CountUp style={{ fontSize: '32px', fontWeight: '900', lineHeight: '47.5px' }} start={0} end={1} prefix="Y " className="count"  duration={4}/>
                             <p>EXPERINECE</p>
                         </div>
                         <div className="team">
-                            <CountUp style={{ fontSize: '32px', fontWeight: '900', lineHeight: '47.5px' }} start={0} end={8} prefix="+ " duration={4} />
+                            <CountUp style={{ fontSize: '32px', fontWeight: '900', lineHeight: '47.5px' }} start={0} end={8} prefix="+ " className="count" duration={4} />
                             <p>BEST TEAM</p>
                         </div>
                         <div className="clients">
-                            <CountUp style={{ fontSize: '42px', fontWeight: '900', lineHeight: '67.5px' }} start={0} end={17} prefix="+" duration={4}/>
+                            <CountUp style={{ fontSize: '42px', fontWeight: '900', lineHeight: '67.5px' }} start={0} end={17} prefix="+" className="count" duration={4}/>
                             <p>TOTAL CLIENTS</p>
                         </div>
                     </div>
